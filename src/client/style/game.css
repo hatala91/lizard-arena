@@ -1,0 +1,14 @@
+.game-body {
+  background-color: white;
+}
+
+.game-wrapper {
+  width: 80%;
+  height: 80%;
+  margin: 20px auto;
+  color: #fff;
+}
+
+.game-div {
+  text-align: center;
+}
