@@ -27,8 +27,8 @@ lib-cov
 coverage
 *.lcov
 
-# Parcel cache
-.parcel-cache
+# Bower dependency directory (https://bower.io/)
+bower_components
 
 # node-waf configuration
 .lock-wscript
@@ -61,3 +61,7 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
