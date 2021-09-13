@@ -1,5 +1,5 @@
 {
-  "name": "lizzard-arena",
+  "name": "lizard-arena",
   "version": "0.0.1",
   "description": "Example of using `https://www.colyseus.io/` with `@geckos.io/phaser-on-nodejs`",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hatala91/lizzard-arena.git"
+    "url": "git+https://github.com/hatala91/lizard-arena.git"
   },
   "keywords": [
     "colyseus",
@@ -23,9 +23,9 @@
   "author": "hatala91",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hatala91/lizzard-arena/issues"
+    "url": "https://github.com/hatala91/lizard-arena/issues"
   },
-  "homepage": "https://github.com/hatala91/lizzard-arena#readme",
+  "homepage": "https://github.com/hatala91/-arena#readme",
   "dependencies": {
     "@geckos.io/phaser-on-nodejs": "^1.2.5",
     "colyseus": "^0.14.23",
