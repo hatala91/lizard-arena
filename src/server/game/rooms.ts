@@ -21,6 +21,7 @@ export default class HeroRoom extends Room<HeroSchema> {
     });
 
     game.scene.add("hero", Hero);
+    game.scene.start("hero");
   }
 
   onJoin(client: Client): void {
