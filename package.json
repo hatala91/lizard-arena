@@ -9,6 +9,9 @@
     "clean:client": "rm -rf ./dist",
     "clean:server": "rm -rf ./build",
     "clean": "concurrently \"npm:clean:*\"",
+    "serve:client": "parcel watch src/client/public/game.html",
+    "serve:server": "ts-node-dev --project src/server/tsconfig.json --respawn --transpile-only src/server/server.ts",
+    "serve": "concurrently \"npm:serve:*\"",
     "start": "node build/server/server.js"
   },
   "repository": {
@@ -42,6 +45,7 @@
     "@types/node": "^16.9.1",
     "colyseus.js": "^0.14.13",
     "parcel": "^2.0.0-rc.0",
-    "prettier": "^2.4.0"
+    "prettier": "^2.4.0",
+    "ts-node-dev": "^1.1.8"
   }
 }
