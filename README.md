@@ -1,3 +1,12 @@
 # lizard-arena
 
-Example of using `https://www.colyseus.io/` with `@geckos.io/phaser-on-nodejs`
+Example/ template for using `https://www.colyseus.io/` with `@geckos.io/phaser-on-nodejs`
+
+## How to run this
+
+1. In a terminal, run `npm ci` (to install packages with version defined in `package-lock.json`) or `npm install` (to also update dependencies)
+2. 
+  a. Run `npm run clean`, `npm run build` and `npm start` to run the start up once
+  b. Run `npm run serve` to trigger re-compilation on save
+3. Open http://0.0.0.0:8080/ in you browser tab
+
