@@ -14,7 +14,7 @@ export default class Server {
   private room?: Room<HeroesState>;
 
   constructor() {
-    this.client = new Client("ws://localhost:8080");
+    this.client = new Client("ws://0.0.0.0:8080");
     this.events = new Phaser.Events.EventEmitter();
   }
 
